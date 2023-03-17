@@ -30,7 +30,7 @@ Material for Java OOP in Metropolia's Software Engineering studies
 
 ### Module 5: Multithreading and unit testing
 - Threads: the basics
-- Synchronizaton of threads
+- Synchronization of threads
 - Foundations of unit testing, running the tests
 - TDD and unit test design
 
@@ -41,7 +41,7 @@ Material for Java OOP in Metropolia's Software Engineering studies
 - GUI design tools 
 
 ### Module 7: Persistence
-- Preparing the database
+- [Preparing the database](7.1. Preparing the database.md)
 - Database usage via JDBC driver
 - Basics of object-relational mapping
 - Relationships in object-relational mapping 
