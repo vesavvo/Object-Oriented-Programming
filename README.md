@@ -1,2 +1,2 @@
-# Object-Oriented-Programming
-The repository for Object-Oriented Programming course in the Software Engineering major option
+# Object-Oriented Programming
+Java Object-oriented programming in Metropolia's Software Engineering studies
