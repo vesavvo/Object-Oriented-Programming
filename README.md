@@ -1,2 +1,2 @@
 # Object-Oriented Programming
-Java Object-oriented programming in Metropolia's Software Engineering studies
+Java OOP in Metropolia's Software Engineering studies
