@@ -41,7 +41,7 @@ Material for Java OOP in Metropolia's Software Engineering studies
 - GUI design tools 
 
 ### Module 7: Persistence
-- [Preparing the database](7.1. Preparing the database.md)
+- [Preparing the database](7.1_Preparing_the_database.md)
 - Database usage via JDBC driver
 - Basics of object-relational mapping
 - Relationships in object-relational mapping 
