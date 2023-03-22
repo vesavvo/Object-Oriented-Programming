@@ -43,8 +43,8 @@ Material for Java OOP in Metropolia's Software Engineering studies
 ### Module 7: Persistence
 - [Preparing the database](7.1_Preparing_the_database_and_the_connection.md)
 - [Database usage via JDBC driver](7.2_Database_usage_via_JDBC_driver.md)
-- Basics of object-relational mapping
-- Relationships in object-relational mapping 
+- [Basics of object-relational mapping](7.3_Basics_of_object-relational_mapping.md)
+- [Association in object-relational mapping](7.4_Association_in_object-relational_mapping.md)
 
 ### Module 8: Functional programming
 - lambda statements
