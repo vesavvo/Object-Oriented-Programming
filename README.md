@@ -4,7 +4,7 @@ Material for Java OOP in Metropolia's Software Engineering studies
 ## Part 1: Fundamentals of OOP in Java
 
 ### Module 1: Fundamentals of Java
-- Java as a programming langauge
+- Java as a programming language
 - Variable types, input and output, type conversion
 - Control structures
 - Arrays
