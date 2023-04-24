@@ -23,8 +23,7 @@ Material for Java OOP in Metropolia's Software Engineering studies
 
 ### Module 4: Enhancing the coding
 - Version control in team work
-- AI-assisted coding
-
+- [AI-assisted coding](4.2_AI-assisted_coding.md)
 
 ## Part 2: Advanced development in Java
 
