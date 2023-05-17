@@ -4,10 +4,10 @@ Material for Java OOP in Metropolia's Software Engineering studies
 ## Part 1: Fundamentals of OOP in Java
 
 ### Module 1: Fundamentals of Java
-- Java as a programming language
-- Variable types, input and output, type conversion
-- Control structures
-- Arrays
+- [Java as a programming language](1.1_Java_as_a_programming_language.md)
+- [Variable types, input and output, type conversion](1.2_Variable_types,_input_and_output,_type_conversion.md)
+- [Control structures](1.3_Control_structures.md)
+- [Arrays](1.4_Arrays.md)
 
 ### Module 2: Data structures and interplay of objects
 - Class, object, constructor, instance variable, method
@@ -22,7 +22,7 @@ Material for Java OOP in Metropolia's Software Engineering studies
 - Data streams, exceptions
 
 ### Module 4: Enhancing the coding
-- Version control in team work
+- [Version control in team work](4.1_Version_control_in_team_work.md)
 - [AI-assisted coding](4.2_AI-assisted_coding.md)
 
 ## Part 2: Advanced development in Java
