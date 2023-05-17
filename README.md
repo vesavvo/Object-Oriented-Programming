@@ -46,5 +46,5 @@ Material for Java OOP in Metropolia's Software Engineering studies
 - [Association in object-relational mapping](7.4_Association_in_object-relational_mapping.md)
 
 ### Module 8: Functional programming
-- lambda statements
-- map/filter/reduce
+- Lambda statements
+- Map/filter/reduce
