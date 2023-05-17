@@ -1,5 +1,5 @@
 # Object-Oriented Programming
-Material for Java OOP in Metropolia's Software Engineering studies
+Learning Resources for Java OOP in Metropolia's Software Engineering Curriculum
 
 ## Part 1: Fundamentals of OOP in Java
 
