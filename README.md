@@ -5,7 +5,7 @@ Learning Resources for Java OOP in Metropolia's Software Engineering Curriculum
 
 ### Module 1: Fundamentals of Java
 - [Java as a programming language](1.1_Java_as_a_programming_language.md)
-- [Variable types, input and output, type conversion](1.2_Variable_types,_input_and_output,_type_conversion.md)
+- [Variables, input and output, type conversion, and arithmetic operators](1.2._Variables,_input_and_output,_type_conversion,_and_arithmetic_operators.md)
 - [Control structures](1.3_Control_structures.md)
 - [Arrays](1.4_Arrays.md)
 
