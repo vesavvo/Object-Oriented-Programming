@@ -10,7 +10,7 @@ Learning Resources for Java OOP in Metropolia's Software Engineering Curriculum
 - [Arrays](1.4_Arrays.md)
 
 ### Module 2: Data structures and interplay of objects
-- Class, object, constructor, instance variable, method
+- [Class, object, constructor, instance variable, method](2.1_Class_object_constructor_instance_variable_method.md)
 - ArrayList
 - HashMap
 - Association
