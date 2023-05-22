@@ -11,7 +11,7 @@ Learning Resources for Java OOP in Metropolia's Software Engineering Curriculum
 
 ### Module 2: Data structures and interplay of objects
 - [Class, object, constructor, instance variable, method](2.1_Class_object_constructor_instance_variable_method.md)
-- [ArrayList](2.2_Collections.md)
+- [Collections](2.2_Collections.md)
 - [Association](2.3_Association.md)
 
 ### Module 3: Advanced Java Concepts
