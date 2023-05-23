@@ -15,7 +15,7 @@ Learning Resources for Java OOP in Metropolia's Software Engineering Curriculum
 - [Association](2.3_Association.md)
 
 ### Module 3: Advanced Java Concepts
-- Inheritance
+- [Inheritance](3.1_Inheritance.md)
 - Interface
 - Static variables and methods, packages and modifiers
 - Data streams, exceptions
@@ -45,5 +45,5 @@ Learning Resources for Java OOP in Metropolia's Software Engineering Curriculum
 - [Association in object-relational mapping](7.4_Association_in_object-relational_mapping.md)
 
 ### Module 8: Functional programming
-- Lambda statements
-- Map/filter/reduce
+- [Lambda statements](8.1_Lambda.md)
+- [Map/filter/reduce](8.2_Functional)
