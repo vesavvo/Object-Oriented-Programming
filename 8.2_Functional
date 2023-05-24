@@ -1,9 +1,0 @@
-# Functional programming in Java
-
-<!-- http://web.mit.edu/6.031/www/fa17/classes/26-map-filter-reduce/ -->
-
-Declarative programming is a paradigm describing WHAT the program does, without explicitly specifying its control flow.
-Imperative programming is a paradigm describing HOW the program should do something by explicitly specifying each
-instruction (or statement) step by step, which mutate the program's state
-
-<!-- https://www.geeksforgeeks.org/functional-programming-in-java-with-examples/ -->
