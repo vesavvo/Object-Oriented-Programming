@@ -17,7 +17,7 @@ Learning Resources for Java OOP in Metropolia's Software Engineering Curriculum
 ### Module 3: Advanced Java Concepts
 - [Inheritance](3.1_Inheritance.md)
 - [Interface](3.2_Interface.md)
-- Static variables and methods, packages and modifiers
+- [Static variables and methods, packages and modifiers](3.3_StaticVarsAndMethods_Packages_Modifiers.md)
 - Data streams, exceptions
 
 ### Module 4: Enhancing the coding
@@ -29,7 +29,7 @@ Learning Resources for Java OOP in Metropolia's Software Engineering Curriculum
 ### Module 5: Multithreading and unit testing
 - Threads: the basics
 - Synchronization of threads
-- Foundations of unit testing, running the tests
+- [Foundations of unit testing, running the tests](5.3_UnitTesting.md)
 - TDD and unit test design
 
 ### Module 6: GUI and event-driven programming
