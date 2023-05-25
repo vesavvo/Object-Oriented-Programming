@@ -27,7 +27,7 @@ Learning Resources for Java OOP in Metropolia's Software Engineering Curriculum
 ## Part 2: Advanced development in Java
 
 ### Module 5: Multithreading and unit testing
-- Threads: the basics
+- [Threads: the basics](5.1_Threads.md)
 - Synchronization of threads
 - [Foundations of unit testing, running the tests](5.3_UnitTesting.md)
 - TDD and unit test design
