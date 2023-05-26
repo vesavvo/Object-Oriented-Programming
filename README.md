@@ -28,7 +28,7 @@ Learning Resources for Java OOP in Metropolia's Software Engineering Curriculum
 
 ### Module 5: Multithreading and unit testing
 - [Threads: the basics](5.1_Threads.md)
-- Synchronization of threads
+- [Synchronization of threads](5.2_Synchronization.md)
 - [Foundations of unit testing, running the tests](5.3_UnitTesting.md)
 - TDD and unit test design
 
