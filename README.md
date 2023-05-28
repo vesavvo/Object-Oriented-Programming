@@ -18,7 +18,7 @@ Learning Resources for Java OOP in Metropolia's Software Engineering Curriculum
 - [Inheritance](3.1_Inheritance.md)
 - [Interface](3.2_Interface.md)
 - [Static variables and methods, packages and modifiers](3.3_StaticVarsAndMethods_Packages_Modifiers.md)
-- Data streams, exceptions
+- [Data streams, exceptions](3.4_DataStreamsAndExceptions.md)
 
 ### Module 4: Enhancing the coding
 - [Version control in team work](4.1_Version_control_in_team_work.md)
