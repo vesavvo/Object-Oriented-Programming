@@ -30,7 +30,7 @@ Learning Resources for Java OOP in Metropolia's Software Engineering Curriculum
 - [Threads: the basics](5.1_Threads.md)
 - [Synchronization of threads](5.2_Synchronization.md)
 - [Foundations of unit testing, running the tests](5.3_UnitTesting.md)
-- TDD and unit test design
+- [TDD and unit test design](5.4_TDD.md)
 
 ### Module 6: GUI and event-driven programming
 - [Principles of GUI, events, MVC model](6.1_Principles_of_GUI,_events,_MVC_model.md)
