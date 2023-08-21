@@ -1,6 +1,8 @@
 # Object-Oriented Programming
 Learning Resources for Java OOP in Metropolia's Software Engineering Curriculum
 
+_This material has been made by Vesa Ollikainen (modules 1, 4, 6, and 7) and Jarkko Vuori (modules 2, 3, 5, and 8)._
+
 ## Part 1: Fundamentals of OOP in Java
 
 ### Module 1: Fundamentals of Java
@@ -47,3 +49,5 @@ Learning Resources for Java OOP in Metropolia's Software Engineering Curriculum
 ### Module 8: Functional programming
 - [Lambda statements](8.1_Lambda.md)
 - [Map/filter/reduce](8.2_Functional.md)
+
+
