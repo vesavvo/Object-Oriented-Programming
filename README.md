@@ -28,11 +28,9 @@ _This material has been made by Vesa Ollikainen (modules 1, 4, 6, and 7) and Jar
 
 ## Part 2: Advanced development in Java
 
-### Module 5: Multithreading and unit testing
+### Module 5: Multithreading
 - [Threads: the basics](5.1_Threads.md)
 - [Synchronization of threads](5.2_Synchronization.md)
-- [Foundations of unit testing, running the tests](5.3_UnitTesting.md)
-- [TDD and unit test design](5.4_TDD.md)
 
 ### Module 6: GUI and event-driven programming
 - [Principles of GUI, events, MVC model](6.1_Principles_of_GUI,_events,_MVC_model.md)
@@ -46,8 +44,10 @@ _This material has been made by Vesa Ollikainen (modules 1, 4, 6, and 7) and Jar
 - [Basics of object-relational mapping](7.3_Basics_of_object-relational_mapping.md)
 - [Association in object-relational mapping](7.4_Association_in_object-relational_mapping.md)
 
-### Module 8: Functional programming
-- [Lambda statements](8.1_Lambda.md)
-- [Map/filter/reduce](8.2_Functional.md)
+### Module 8: Unit Testing and Functional programming
+- [Foundations of unit testing, running the tests](8.1_UnitTesting)
+- [TDD and unit test design](8.2_TDD)
+- [Lambda statements](8.3_Lambda)
+- [Map/filter/reduce](8.4_Functional)
 
 
