@@ -45,7 +45,7 @@ _This material has been made by Vesa Ollikainen (modules 1, 4, 6, and 7) and Jar
 - [Association in object-relational mapping](7.4_Association_in_object-relational_mapping.md)
 
 ### Module 8: Unit Testing and Functional programming
-- [Foundations of unit testing, running the tests](8.1_UnitTesting)
+- [Foundations of unit testing, running the tests, JavaDoc](8.1_UnitTesting)
 - [TDD and unit test design](8.2_TDD)
 - [Lambda statements](8.3_Lambda)
 - [Map/filter/reduce](8.4_Functional)
