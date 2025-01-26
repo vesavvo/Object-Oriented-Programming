@@ -10,14 +10,14 @@ In your earlier studies, you have learned the basics of version control. You pro
 - **commit** saves the changes to the local repository
 - **push** sends the changes to the remote repository
 
-This set of commands is often enough, if you work in a small project as the only developer. However, in a larger project, you need to be able to work in a team. In this case, you need to know how to create branches, merge branches, and resolve merge conflicts.
+This set of commands is often enough if you work in a small project as the only developer. However, in a larger project, you need to be able to work in a team. In this case, you need to know how to create branches, merge branches, and resolve merge conflicts.
 
 
 ## 4.1.2. Branches
 
 In GitHub, branches are used to develop features isolated from each other. The `master` branch is the "default" branch when you create a repository. Use other branches for development and merge them back to the `master` branch upon completion.
 
-Let's start with a simple example. We create a new project in IntelliJ Idea and add one class into its `src` folder. The class is called `GreetingMachine`, and it prints out a greeting message. The code is shown below:
+Let's start with a simple example. We create a new project in IntelliJ IDEA and add one class into its `src` folder. The class is called `GreetingMachine`, and it prints out a greeting message. The code is shown below:
 
 ```java
 public class GreetingMachine {
@@ -96,7 +96,7 @@ In the previous section, we created a new branch called `feature` and added a ne
 
 4. Push the changes to the remote repository. Click **Git / Push** in the main menu. Check that the updated files are selected in the opening dialog box.
 
-If you look at the source code in GitHub, you can see that the new method is now in the `master` branch. 
+If you look at the source code in GitHub, you can see that the new method is now in the `master` branch.
 
 
 The procedure above provides a nice, systematic way to develop features in a team. However, sometimes things go wrong. For example, you might have made changes to the same file in two different branches. In this case, you get a merge conflict. Let's see how this works in practice.
@@ -153,7 +153,7 @@ Click **Merge** to proceed. Now, we get the following dialog box:
 
 ![Merge conflict](images/conflicts_dialog.png)
 
-Here, you can click **Accept Yours** or **Accept Theirs** to resolve the conflict. **Accept Yours** means that you want to keep the changes you made in the local repository. **Accept Theirs** means that you want to keep the changes made in the remote repository. It may not be a good habit to routinely click one of these buttons without thinking. You should always carefully consider which changes to keep. 
+Here, you can click **Accept Yours** or **Accept Theirs** to resolve the conflict. **Accept Yours** means that you want to keep the changes you made in the local repository. **Accept Theirs** means that you want to keep the changes made in the remote repository. It may not be a good habit to routinely click one of these buttons without thinking. You should always carefully consider which changes to keep.
 
 Let's assume we are not yet sure which changes are worth keeping. It may also be the case that we need to manually craft a combination of the changes.
 To keep that choice, we click **Merge**. Now, we get the following dialog box:
@@ -182,7 +182,7 @@ If you ever need to revert to an older version of your code, you use the commit 
 
 Also, each commit should just span the changes related to a single feature. If you have made changes to multiple files, you should commit the changes to each file separately. This way, you can easily revert the changes to a single file if needed. It is a very bad practice to work for an entire day, and then commit all the changes at once. If you do this, the comments are of little use.
 
-
+<!---
 ## Assignment
 
 This assignment is done in a small team. You can choose your team members freely. The team should consist of 2-3 members.
@@ -240,7 +240,7 @@ public class PalindromeChecker {
 }
 ```
 
-5. Commit the changes (i.e. the adding initial code) and push them to the remote repository.
+5. Commit the changes (i.e., the adding initial code) and push them to the remote repository.
 
 From now on, each team member should create an own branch and work there. The branch name should be the name of the team member. For example, if the team member's name is John, the branch name should be `john`.
 
@@ -262,3 +262,84 @@ For this assignment, you get points as follows:
 
 ---
 _This learning material has been produced with assistance from OpenAI's ChatGPT-4 and GitHub Copilot. These large language models have provided suggestions and solutions that have assisted the author in producing and supplementing the material. While their contribution has been significant, the final responsibility for the content and its correctness resides with the author._
+
+-->
+
+
+# 4.2. AI-assisted coding
+
+GitHub Copilot is an AI-powered coding assistant developed through a collaboration between OpenAI and GitHub.
+GitHub Copilot is designed to help programmers write code more efficiently and quickly. It integrates directly into programming environments such as IntelliJ Idea and automatically suggests code snippets or functions in real time as you type. Capable of understanding your intentions through the code you write, it learns from your coding style and past solutions.
+
+In this submodule, we install GitHub Copilot and activate in in IntelliJ Idea. Then, we explore the functionality with a few coding assignments.
+
+## 4.2.1. Installation and activation
+
+GitHub CoPilot requires a paid or free plan. The use of GitHub Copilot is included in the GitHub Education package, which is available to all students in Metropolia.
+
+To sign up for GitHub Education, proceed as follows:
+
+1. Make sure that you have your real name set in your GitHub profile. If you have not done so, click on your profile thumbnail in GitHub, then click **Settings** and **Profile**. Enter your real name in the **Name** field and click **Save**.
+2. Go to https://education.github.com/pack and verify your student status.
+As a consequence of the verification procedure, you should receive an approval notification by email. The following ways to prove one's identity are known to work for students in Metropolia (In verification, GitHub seems to prefer documents showed via the webcam to scanned documents):
+   - the student card from the Tuudo app displayed via the webcam
+   - a transcript of records from Oma
+2. Log in to GitHub. Click your profile thumbnail in the upper right corner and select **Settings**.
+3. Choose **Billing and Plans / Plans and usage**. Enable GitHub Copilot.
+4. In the **Settings** menu click **Copilot**. Choose **Allow** under the **Suggestions matching public code** section. Also, tick **Allow GitHub to use my code snippets...** if you want to expose your own code as data for other users´ recommendations.
+
+Next, open IntelliJ Idea.
+1. Choose **File / Settings**.
+2. Click **Plugins**.
+3. Type **GitHub Copilot** in the search box and click **Install**. After the installation, restart your IDE if the system so prompts.
+4. Go to **Tools / GitHub Copilot**, and select **Log into GitHub**. Enter your GitHub credentials when requested and log in.
+5. Click **Tools  / GitHub Copilot** and select **Show completions**. If this option is already turned on, you can skip this step.
+6. Click **Tools  / GitHub Copilot** and select **Show suggestions**. If this option is already turned on, you can skip this step.
+
+Now you should be ready to use GitHub Copilot. Play with it a bit to get a feeling of how it works. Note that you can choose between different copilot suggestions with `ctrl`+`.` and `ctrl`+`,` shortcuts. Then complete the following assignments to further explore the functionality.
+
+
+## Assignments
+
+Submit the answer of this assignment as a pdf file. The file should contain the source codes of the relevant classes as well as an explanation of how you used GitHub Copilot to write the code. For each assignment, evaluate the applicability of GitHub Copilot for your own coding style. What are the benefits and drawbacks of using GitHub Copilot?
+
+**Task 1: Using GitHub Copilot to write methods**
+
+In a new project, write a `Calculator` class that has the ability to sum positive integers. A negative integer should throw an exception.
+
+The class acts as the model in the MVC pattern. It should have the following methods:
+- A method that resets the calculator to zero.
+- A method that adds an integer to the calculator.
+- A method that returns the current value of the calculator.
+
+In addition, write a temporary main method that creates an instance of the `Calculator` class and uses it to calculate the sum of a few integers.
+
+Explore various way in which you can use GitHub Copilot to write the sum method. For example, try the following:
+
+- Write the method signature and let GitHub Copilot write the method body.
+- Write the method signature and the first line of the method body, and let GitHub Copilot write the rest. Then, modify the code to use a different loop structure (while instead of for, or vice versa) in the body.
+- Write a comment where you describe the method in English, letting GitHub Copilot write the method body based on the comment.
+
+
+**Task 2: Using GitHub Copilot to explain code**
+
+With GitHub Copilot, you can also write comments and explanations of code. In this assignment, you will write a textual explanation of the `Calculator` class and its methods. Use GitHub Copilot to write the explanations. Then, modify the explanations to make them more readable and understandable.
+
+Proceed as follows:
+
+1. Create a Markdown file in your project. Name it `README.md`. If you are not familiar with Markdown, you can read about it here: https://www.markdownguide.org/basic-syntax/
+2. Write a short description of the idea of the program in the beginning of the file. You can edit the md document in IntelliJ Idea.
+3. Copy the code of the `Calculator` class to the md file. Be sure to mark the code as code by using three backticks before and after the code block:
+4. Below the code, explain how the class works. Use GitHub Copilot to write the explanation. Then, modify the explanation to make it more readable and understandable.
+
+For this assignment, you get points in the following way:
+
+1. Task 1 completed: 3 points
+2. Task 2 completed: 3 points
+
+---
+_This learning material has been produced with assistance from OpenAI's ChatGPT-4 and GitHub Copilot. These large language models have provided suggestions and solutions that have assisted the author in producing and supplementing the material. While their contribution has been significant, the final responsibility for the content and its correctness resides with the author._
+
+
+
+

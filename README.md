@@ -23,8 +23,7 @@ _This material has been made by Vesa Ollikainen (modules 1, 4, 6, and 7) and Jar
 - [Data streams, exceptions](3.4_DataStreamsAndExceptions.md)
 
 ### Module 4: Enhancing the coding
-- [Version control in team work](4.1_Version_control_in_team_work.md)
-- [AI-assisted coding](4.2_AI-assisted_coding.md)
+- [Version control and AI-assisted coding](4_VCS_and_AI-assisted_coding.md)
 
 ## Part 2: Advanced development in Java
 
