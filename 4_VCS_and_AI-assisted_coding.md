@@ -331,6 +331,7 @@ Proceed as follows:
 2. Write a short description of the idea of the program in the beginning of the file. You can edit the md document in IntelliJ Idea.
 3. Copy the code of the `Calculator` class to the md file. Be sure to mark the code as code by using three backticks before and after the code block:
 4. Below the code, explain how the class works. Use GitHub Copilot to write the explanation. Then, modify the explanation to make it more readable and understandable.
+5. Return a link to a README.md in github.
 
 For this assignment, you get points in the following way:
 
