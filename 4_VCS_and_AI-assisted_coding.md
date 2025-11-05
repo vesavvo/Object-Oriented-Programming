@@ -182,6 +182,50 @@ If you ever need to revert to an older version of your code, you use the commit 
 
 Also, each commit should just span the changes related to a single feature. If you have made changes to multiple files, you should commit the changes to each file separately. This way, you can easily revert the changes to a single file if needed. It is a very bad practice to work for an entire day, and then commit all the changes at once. If you do this, the comments are of little use.
 
+### Tips on the commit comments
+
+Write the commit comment does not use past tense, such as `added`, `fixed`, `removed`, etc. Instead, use present tense, such as `add`, `fix`, `remove`, etc.
+
+Examples of bad commit comments:
+
+```
+Added new feature
+Fixed bug
+Removed unused code
+```
+
+Instead, use descriptive commit comments with present tense:
+
+```
+Add new feature to allow users to reset their password
+Fix bug in login form that was preventing users from logging in
+Remove unused code from the login component
+```
+
+Notice that the commit comments should start with a capital letter, and do not end with a period.
+
+A good rule of thumb is to imagine that the commit comment completes the sentence `If applied, this commit will...`.
+
+```
+If applied, this commit will Add new feature to allow users to reset their password
+If applied, this commit will Fix bug in login form that was preventing users from logging in
+If applied, this commit will Remove unused code from the login component
+```
+
+If past tense is used in the commit comment, then the sentence will not make sense:
+
+```
+If applied, this commit will Added new feature
+If applied, this commit will Fixed bug
+If applied, this commit will Removed unused code
+```
+
+For more information on writing good commit comments, see the following articles:
+
+- [How to Write a Git Commit Message](https://cbea.ms/git-commit/) - make sure to read this article
+- [FreeCodeCamp - How to Write Good Commit Messages: A Practical Git Guide](https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/)
+
+
 <!---
 ## Assignment
 
